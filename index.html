@@ -10,6 +10,7 @@
         <div class="wrapper">
         <h1>Make Your Name Card</h1>
         <div class="left">
+            <!-- <label>LOGO</label> -->
             <label>NAME</label>
             <label>JOB</label>
             <label>ADDRESS</label>
@@ -18,19 +19,25 @@
             
         </div>
         <div class="right">
+            <!--image 추가예정-->
+            <!-- <input id="logo" type="image" value="LOGO Please 1:1" /> -->
             <input required id="name" placeholder="Name" type="text"/>
             <input required id="job" placeholder="Job" type="text"/>
             <input required id="address" placeholder="Address" type="text"/>
             <input required id="phone" placeholder="Phone Number" type="text" />
             <input required id="email" placeholder="Email Address" type="email" />
-            <button id="btn">SUBMIT</button>
+            <div class="btns">
+            <button id="btn">Ver1</button>
+            <button id="btn2">Ver2</button>
+            <button id="btn3">Ver3</button>
+            </div>
         </div>
     </div>
     <div class="result">
     <canvas id="canvas" class="canvas"></canvas>
-        <p><button class="saveBtn" id="save">Save</button></p>
-        <script src="js/name_card.js"></script>
-    <script src="js/name_card.js"></script>
+    <button class="saveBtn" id="save">Save</button>
     </div>
+    
+    <script src="js/name_card.js"></script>
     </body>
 </html>

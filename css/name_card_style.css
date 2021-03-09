@@ -12,10 +12,14 @@ div{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
     width: 700px;
-    height: 400px;
-    /* 가운데 정렬이 하고싶어요... */
+    height: 400px;  
+    /* 가운데 정렬이 하고싶어요...  전체 중앙정렬을 해야함 ㅠ*/
 }
-
+.wrapper{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0);
+}
 
 div.left{
     width: 30%;
@@ -37,17 +41,19 @@ div.right{
     padding-left: 20px;
 }
 
-input,
-button{
+input{
     all: unset;
 }
 
 button{
+    all: unset;
     width: 90px; height: 40px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
     color: rgb(36, 22, 2);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 label,
@@ -59,7 +65,10 @@ input{
     width: 36em; height: 20em;
     background-color: white;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 600px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0);
 }
 
 .saveBtn{
@@ -71,5 +80,8 @@ input{
     color: rgb(36, 22, 2);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 20px;
+    margin-top: 1130px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0);
 }
