@@ -15,9 +15,9 @@ function handleSubmit(event){
     ctx.fillText(name, 130, 30);
     ctx.font = "12px serif";
     ctx.fillText(job, 130, 48);
-    ctx.fillText(address, 130, 110);
-    ctx.fillText(phoneNumber, 130, 125);
-    ctx.fillText(email, 130, 140);
+    ctx.fillText(address, 130, 107);
+    ctx.fillText(phoneNumber, 130, 122);
+    ctx.fillText(email, 130, 137);
 }
 
 function handleSubmit2(event){
@@ -29,12 +29,12 @@ function handleSubmit2(event){
     const email = document.getElementById("email").value;
     ctx.clearRect(0,0,360,200)
     ctx.font = "25px serif";
-    ctx.fillText(name, 60, 35);
+    ctx.fillText(name, 80, 35);
     ctx.font = "12px serif";
     ctx.fillText(job, 20, 35);
-    ctx.fillText(address, 140, 110);
-    ctx.fillText(phoneNumber, 140, 125);
-    ctx.fillText(email, 140, 140);
+    ctx.fillText(address, 140, 107);
+    ctx.fillText(phoneNumber, 140, 122);
+    ctx.fillText(email, 140, 137);
 }
 
 function handleSubmit3(event){
@@ -46,12 +46,12 @@ function handleSubmit3(event){
     const email = document.getElementById("email").value;
     ctx.clearRect(0,0,360,200)
     ctx.font = "25px serif";
-    ctx.fillText(name, 60, 35);
+    ctx.fillText(name, 80, 35);
     ctx.font = "12px serif";
     ctx.fillText(job, 20, 35);
-    ctx.fillText(address, 20, 110);
-    ctx.fillText(phoneNumber, 20, 125);
-    ctx.fillText(email, 20, 140);
+    ctx.fillText(address, 20, 107);
+    ctx.fillText(phoneNumber, 20, 122);
+    ctx.fillText(email, 20, 137);
 }
 
 function handleSaveClick(event){
