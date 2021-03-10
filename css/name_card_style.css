@@ -12,7 +12,6 @@ div{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 700px;
     height: 400px;  
-    /* 가운데 정렬이 하고싶어요...  전체 중앙정렬을 해야함 ㅠ*/
 }
 .wrapper{
     position: absolute;
@@ -63,10 +62,10 @@ input{
     padding-bottom: 18px; 
 }
 .canvas{
-    width: 135vh; height: 75vh;
+    /* width: 90vh; height: 50vh; */
     background-color: white;
-    border-radius: 20px;
-    margin-top: 600px;
+    border-radius: 10px;
+    margin-top: 550px;
     position: absolute;
     left:50%;
     transform: translate(-50%, 0);
@@ -81,8 +80,14 @@ input{
     color: rgb(36, 22, 2);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 1330px;
+    margin-top: 900px;
     position: absolute;
     left:50%;
     transform: translate(-50%, 0);
+}
+
+.inputImage{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
